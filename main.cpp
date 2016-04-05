@@ -140,7 +140,7 @@ void adapters(Slav * slavs, int n)
 
 	for(int i=0;i<n;i++)
 	{
-		cout << (*(stackOfSlavs.top()))->description() << endl;
+		cout << (*(stackOfSlavs.top())).description()<<endl;
 		stackOfSlavs.pop();
 	}
 	
